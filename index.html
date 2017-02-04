@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>PSDB - Pot Sticker Dumpling Bar</title>
+  <meta name="description" content="Pot Sticker">
+  <meta name="author" content="Pot Sticker">
+
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300, 400, 900" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="popup" class="modal">
+  <div class="popupContent">
+    <div class="popupImage"><img src=images/steamDumpling.svg width="17%"></div>
+    <p>
+        <!--Insert your message below-->
+    Sorry Dumpling heads, we will be closed on the 6th of February for
+    Waitangi day. See you on Tuesday for your dumpling fix.
+
+    </p>
+    <span class ="okButton">OK</span>
+  </div>
+</div>
+
+  <nav class = "nav">
+    <span id ="navLeft">
+      <p><a href="https://www.facebook.com/potstickerdumplingbar" target="_blank">FACEBOOK</a> </br></br>
+      <a href="https://www.instagram.com/explore/locations/265590169/pot-sticker-dumpling-bar/" target="_blank">INSTAGRAM</a>
+    </p>
+    </span>
+
+    <span id ="navRight">
+      <ul>
+        <li><a href="">&nbsp; &nbsp;HOLLA AT US</a>
+          <ul>
+                <li><p>Bookings</br></br>Private Functions</br></br>Comments</p></li>
+          </ul>
+        </li>
+      </ul>
+    </span>
+  </nav>
+
+  <div id = "logo">
+    <img src ="images/logo.svg" width="17%">
+  </div>
+
+  <div id = "container">
+      <div class = "menu">
+        <a href="colombo" class = "site"><img src="images/colombo.svg" width="70%" height="70%"></a>
+          <p> MENU POPUP</p>
+      </div>
+
+      <a href="poplar" class ="site"><img src="images/poplar.svg" width="70%" height="70%"></a>
+      <a href="victoria" class="site"><img src="images/victoria.svg" width="70%" height="70%"></a>
+  </div>
+
+  <script type="text/javascript">
+  // Get the modal
+  var modal = document.getElementById('popup');
+
+  // Get the OK element that closes the modal
+  var ok = document.getElementsByClassName("okButton")[0];
+
+  // When the page loads, open the modal
+  window.onload = function() {
+      modal.style.display = "block";
+  }
+
+  // When the user clicks on OK, close the modal
+  ok.onclick = function() {
+      modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+
+</body>
+</html>
